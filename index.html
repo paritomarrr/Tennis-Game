@@ -10,8 +10,8 @@
     <script>
         var canvas;
         var canvasContext;
-        var ballX = 50;
-        var ballY = 50;
+        var ballX = 70;
+        var ballY = 70;
         var ballspeedX = 10;
         var ballspeedY = 4;
 
@@ -170,7 +170,7 @@
 
             drawNet();
             // this is left player paddle
-            colorRect(0,paddle1Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
+            colorRect(0,paddle1Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'black');
             // this is right computer paddle
             colorRect(canvas.width-PADDLE_THICKNESS,paddle2Y,PADDLE_THICKNESS,PADDLE_HEIGHT,'white');
             // next line draws the ball
